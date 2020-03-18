@@ -1,0 +1,342 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.container {
+  width: 1150px;
+  margin: 0 auto;
+}
+form {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+/* .middle {
+  font-size: 0.8rem;
+} */
+select {
+  background-color: #f1f4ff;
+}
+input,
+textarea {
+  background-color: #f1f4ff;
+  outline: none;
+  border: none;
+  border: 1px solid black;
+  padding: 1rem;
+  font-size: 16px;
+}
+input:focus,
+textarea:focus {
+  background-color: #fff;
+}
+
+.relative {
+  position: relative;
+}
+
+.cer-no input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.cer-no input {
+  font-size: 16px;
+  text-align: center;
+  padding: 0.5rem;
+  line-height: 14px;
+}
+
+.customer {
+  margin-top: 64px;
+}
+.customer-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.customer-label {
+  width: 10%;
+  text-align: left;
+}
+.customer-inputs {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.customer-inputs input#customer {
+  width: 100%;
+}
+.customer-inputs.audiometer > * {
+  width: 28%;
+}
+.customer-inputs.audiometer input {
+  width: 100%;
+}
+
+.customer-inputs.earphones > * {
+  width: 42%;
+}
+.customer-inputs.earphones input {
+  width: 100%;
+}
+
+.customer-item + .customer-item {
+  margin-top: 2rem;
+}
+
+.mt-1 {
+  margin-top: 1rem;
+}
+.mr-p1 {
+  margin-right: 0.5rem;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: initial;
+}
+.text-right {
+  text-align: right;
+}
+
+.flex-end-center {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.corner {
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+
+.small {
+  font-size: 0.75rem;
+}
+
+.form-3 {
+  width: 100%;
+
+  margin-top: 38px;
+  text-align: center;
+}
+.form-3 td {
+  text-align: center;
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+.form-3 tfoot td {
+  border: none;
+  font-size: 0.75rem;
+}
+.form-3 .form-item {
+  border-right: 1px solid black;
+  flex: 1;
+}
+
+.form-3 .form-item:nth-child(2) {
+  flex: 2;
+}
+
+.form-4 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.form-4 .check {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+}
+
+.form-4 .check label {
+  margin-bottom: 0.5rem;
+}
+.form-4 select {
+  height: 40px;
+}
+.form-5 table {
+  width: 100%;
+  margin-top: 46px;
+  table-layout: fixed;
+}
+
+.form-5 td {
+  text-align: center;
+}
+.form-5 td input {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.form-5 tbody tr:nth-child(odd) td {
+  background-color: #f1f4ff;
+}
+.form-5 tbody tr td:nth-child(2),
+.form-5 tbody tr td:nth-child(3),
+.form-5 tbody tr td:nth-child(5),
+.form-5 tbody tr td:nth-child(6),
+.form-5 tbody tr td:nth-child(7),
+.form-5 tbody tr td:nth-child(8),
+.form-5 tbody tr td:nth-child(10),
+.form-5 tbody tr td:nth-child(11),
+.form-5 tbody tr td:nth-child(13),
+.form-5 tbody tr td:nth-child(14) {
+  border: 1px solid black;
+}
+
+.form-5 tbody tr td:nth-child(1) {
+  padding: 0.5rem;
+}
+
+.form-5 table td input {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+
+.form-6 {
+  margin-top: 46px;
+  text-transform: uppercase;
+}
+
+.form-6 .checkbox-1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 86px;
+  width: 65%;
+}
+
+.form-6 .checkbox-1__item {
+  display: flex;
+  align-items: center;
+  margin-right: 46px;
+  width: 170px;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+.form-6 .checkbox-1__item label {
+  margin-right: 1rem;
+  text-align: right;
+}
+
+.form-6 .checkbox-2 {
+  display: flex;
+  margin-top: 46px;
+}
+
+.form-6 .checkbox-2 label {
+  margin-right: 35px;
+}
+
+.form-6 .checkbox-2__item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-bottom: 0.5rem;
+}
+.form-6 .checkbox-wrap {
+  margin-right: 76px;
+}
+
+.form-6 textarea {
+  height: 100px;
+  width: 63%;
+  resize: none;
+  padding: 0.3rem;
+}
+
+.form-7 {
+  margin-top: 46px;
+}
+.form-7 textarea {
+  width: 100%;
+  height: 150px;
+  padding: 0.3rem;
+  padding-left: 60px;
+}
+
+.form-7 span {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  bottom: 5px;
+  padding: 0.2rem;
+  background-color: #fff;
+}
+
+.form-8 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+.form-8 .box {
+  border: 1px solid black;
+  width: 300px;
+  height: 150px;
+  text-align: justify;
+  font-size: 14px;
+  padding: 0.2rem;
+}
+
+.form-8 #kit-no {
+  width: 100px;
+  padding: 0.3rem;
+}
+.form-8 #asset-no {
+  width: 200px;
+  padding: 0.3rem;
+  border: none;
+}
+
+.form-9 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.form-9 > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-9 label {
+  margin-bottom: 0.3rem;
+}
+
+.form-9 input {
+  padding: 0.3rem 1rem;
+  width: 120px;
+  border: none;
+}
+
+.form-9 select {
+  padding: 0.3rem 1rem;
+}
+
+.submit-1{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;
+}
+.submitButton{
+  padding: 6px;
+}

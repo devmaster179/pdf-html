@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Certificate</title>
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/minireset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <form action="">
+      <h1>Certificate of Calibration</h1>
+      <div class="cer-no mt-1  flex-end-center">
+        <label class="middle mr-p1" for="cer-no">Certificate No.</label>
+        <input name="cer-no" id="cer-no" type="text" placeholder="200225111616hs30">
+      </div>
+
+      <div class="customer">
+        <div class="customer-item">
+          <label class="customer-label" for="customer">Customer:</label>
+          <div class="customer-inputs">
+            <input name="customer" class="text-center" type="text" id="customer" placeholder="Steve hilton">
+          </div>
+        </div>
+        <div class="customer-item text-left">
+          <label for="make">Audiometer:</label>
+
+          <div class="customer-inputs audiometer">
+            <div class="relative">
+              <span class="small corner">Make:</span>
+              <input id="make" name="make" class="text-center" type="text">
+            </div>
+
+            <div class="relative">
+              <span class="small corner">Model:</span>
+              <input name="model" class="text-center" type="text">
+            </div>
+            <div class="relative">
+              <span class="small corner">Serial No:</span>
+              <input name="serial-no" class="text-center" type="text">
+            </div>
+
+          </div>
+        </div>
+
+        <div class="customer-item text-left">
+          <label for="r-ser">Earphones:</label>
+
+          <div class="customer-inputs earphones">
+            <div class="relative">
+              <span class="small corner">R Serial No:</span>
+              <input id="r-ser" name="r-ser" class="text-center" type="text">
+            </div>
+
+            <div class="relative">
+              <span class="small corner">L Serial No:</span>
+              <input name="l-ser" class="text-center" type="text">
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+
+      <table class="form-3">
+        <tfoot>
+          <tr>
+            <td>Type 1 &plusmn; 1%, Type 2 &plusmn; 2%, Type 3,4,5 &plusmn; 3%</td>
+            <td>Deviation from RETSPL <br> Or Indicated SPL (dB)</td>
+            <td>Deviation or Indicated SPL dB</td>
+            <td>Deviation from RETFL (dB)</td>
+          </tr>
+        </tfoot>
+        <tbody>
+          <tr>
+            <td rowspan="2">FREQUENCY Hz</td>
+            <td colspan="2">AC OUTPUT 70 dB HL</td>
+            <td rowspan="2">BC 40 dB HL</td>
+          </tr>
+          <tr>
+            <td>AC OUTPUT 70 dB HL</td>
+            <td>BC 40 dB HL</td>
+          </tr>
+        </tbody>
+      </table>
+      <div class="form-4">
+        <select name="dd45" id="">
+          <option value="DD45">DD45</option>
+          <option value="DD65">DD65</option>
+          <option value="Ear 3A">Ear 3A</option>
+          <option value="Ear 5A">Ear 5A</option>
+          <option value="HDA 200">HDA 200</option>
+          <option value="Holmco 8103">Holmco 8103</option>
+          <option value="Ip30">IP30</option>
+          <option value="TDH 39">TDH 39</option>
+          <option value="TDH 49">TDH 49</option>
+          <option value="TDH 50">TDH 50</option>
+        </select>
+
+        <div class="check">
+          <label for="b71">B-71</label>
+          <input type="checkbox" name="b71" id="b71">
+        </div>
+      </div>
+
+      <div class="form-5">
+        <table>
+          <thead>
+            <tr>
+              <td>&nbsp;</td>
+              <td>Before</td>
+              <td>After</td>
+              <td>RESTSPL <br> dB Re 20 uPa</td>
+              <td>Right Before</td>
+              <td>Right After</td>
+              <td>Left Before</td>
+              <td>Left After</td>
+              <td>Ref. level 1/3 Re: RETSPL</td>
+              <td>Before</td>
+              <td>After</td>
+              <td>REFTL dB Re: 1 uN</td>
+              <td>Before</td>
+              <td>After</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>125</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+4</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>250</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+4</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>67.0 &PlusMinus; 3</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>500</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+4</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>58.0 &PlusMinus; 3</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>750</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+5</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>48.5 &PlusMinus; 3</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>1000</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+4</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>42.5 &PlusMinus; 3</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>1500</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+6</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>36.5 &PlusMinus; 3</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>2000</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+6</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>31.0 &PlusMinus; 3</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>3000</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+6</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>30.0 &PlusMinus; 3</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>4000</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+5</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>35.5 &PlusMinus; 3</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>6000</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+5</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>40.0 &PlusMinus; 5</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>8000</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>+5</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td>40.0 &PlusMinus; 5</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+            <tr>
+              <td>12000</td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+              <td></td>
+              <td><input type="text"></td>
+              <td><input type="text"></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="submit-1">
+      	<input type="submit" name="" value="Save" class="submitButton">
+      </div>
+
+      <div class="form-6">
+        <div class="checkbox-1">
+          <div class="checkbox-1__item">
+            <label for="attenuator">attenuator</label>
+            <input name="attenuator" id="attenuator" type="checkbox">
+          </div>
+          <div class="checkbox-1__item">
+            <label for="microphone">microphone</label>
+            <input name="microphone" id="microphone" type="checkbox">
+          </div>
+          <div class="checkbox-1__item">
+            <label for="rise/fall-time">rise/fall time</label>
+            <input name="rise/fall-time" id="rise/fall-time" type="checkbox">
+          </div>
+          <div class="checkbox-1__item">
+            <label for="response">response</label>
+            <input name="response" id="response" type="checkbox">
+          </div>
+          <div class="checkbox-1__item">
+            <label for="distortion">distortion</label>
+            <input name="distortion" id="distortion" type="checkbox">
+          </div>
+          <div class="checkbox-1__item">
+            <label for="output-boost">output-boost</label>
+            <input name="output-boost" id="output-boost" type="checkbox">
+          </div>
+        </div>
+        <div class="checkbox-2">
+          <label for="part">PARTS:</label>
+          <div class="checkbox-wrap">
+            <div class="checkbox-2__item">
+              <label for="headset-lead">headset lead</label>
+              <input name="headset-lead" id="headset-lead" type="checkbox">
+            </div>
+            <div class="checkbox-2__item">
+              <label for="cup-cushions">cup cushions</label>
+              <input name="cup-cushions" id="cup-cushions" type="checkbox">
+            </div>
+          </div>
+
+          <label for="other">OTHER:</label>
+       
+            <textarea name="other" id="other"></textarea>
+        
+        </div>
+      </div>
+
+      <div class="form-7">
+        <div class="relative">
+          <span >NOTES:</span>
+          <textarea name="notes" id="notes" ></textarea>
+        </div>
+      </div>
+
+
+      <div class="form-8">
+        <div class="box">
+          Measurements are made using the  appropriate couples as specified in IEC 60303, IEC 60318, IEC 126 & IEC 373. In accordance with BS EN ISO 389 & BN EN 60645. Measurements traceable to National Standards held at NPL Teddington.
+        </div>
+
+        <div>
+          <label for="kit-no">Calibration Kit No:</label>
+          <select name="kit-no" id="kit-no">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="asset-no">Device Asset No:</label>
+          <input type="text" name="asset-no" id="asset-no">
+        </div>
+      </div>
+
+
+      <div class="form-9">
+        <div>
+          <label for="by">Calibrated By</label>
+          signature
+        </div>
+
+        <div>
+          <label for="date">Calibration Date</label>
+          <input type="text" name="date" id="date" placeholder="2020-02-25" required />
+        </div>
+
+        <div>
+          <label for="date-due">Calibration Due</label>
+          <input type="text" name="date-due" id="date-due" placeholder="2020-02-25" required />
+        </div>
+        <div>
+          <label for="result">Result</label>
+          <select name="result" id="result">
+            <option value="pass">PASS</option>
+            <option value="fail">FAIL</option>
+          </select>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
